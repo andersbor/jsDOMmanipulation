@@ -43,7 +43,7 @@ function addListElement() {
 }
 
 // https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
-inputElement.addEventListener("keypress", (keyEvent) => {
+inputElement.addEventListener("keypress", keyEvent => {
     if (keyEvent.code == "Enter") // https://keycode.info/
     {
         addListElement();
